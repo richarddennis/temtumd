@@ -1,0 +1,32 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var MessageType;
+(function (MessageType) {
+    MessageType[MessageType["QUERY_LAST_BLOCK"] = 0] = "QUERY_LAST_BLOCK";
+    MessageType[MessageType["QUERY_ALL"] = 1] = "QUERY_ALL";
+    MessageType[MessageType["RESPONSE_LAST_BLOCK"] = 2] = "RESPONSE_LAST_BLOCK";
+    MessageType[MessageType["RESPONSE_BLOCKCHAIN"] = 3] = "RESPONSE_BLOCKCHAIN";
+    MessageType[MessageType["QUERY_TRANSACTION_POOL"] = 4] = "QUERY_TRANSACTION_POOL";
+    MessageType[MessageType["RESPONSE_TRANSACTION_POOL"] = 5] = "RESPONSE_TRANSACTION_POOL";
+    MessageType[MessageType["QUERY_PEERS"] = 6] = "QUERY_PEERS";
+    MessageType[MessageType["RESPONSE_PEERS"] = 7] = "RESPONSE_PEERS";
+    MessageType[MessageType["UPDATE_PEER_STATUS"] = 8] = "UPDATE_PEER_STATUS";
+    MessageType[MessageType["UPDATE_PEER_LIST"] = 9] = "UPDATE_PEER_LIST";
+    MessageType[MessageType["REQUEST_RANDOM_BLOCK"] = 10] = "REQUEST_RANDOM_BLOCK";
+    MessageType[MessageType["RESPONSE_RANDOM_BLOCK"] = 11] = "RESPONSE_RANDOM_BLOCK";
+    MessageType[MessageType["REQUEST_PEER_DELETE"] = 12] = "REQUEST_PEER_DELETE";
+    MessageType[MessageType["AUTHORIZE_CLIENT"] = 13] = "AUTHORIZE_CLIENT";
+    MessageType[MessageType["UPDATE_CLIENT_TOKEN"] = 14] = "UPDATE_CLIENT_TOKEN";
+    MessageType[MessageType["WRONG_TOKEN"] = 15] = "WRONG_TOKEN";
+    MessageType[MessageType["REQUEST_PEER_READY"] = 16] = "REQUEST_PEER_READY";
+    MessageType[MessageType["RESPONSE_PEER_READY"] = 17] = "RESPONSE_PEER_READY";
+    MessageType[MessageType["SEND_BLOCK_BY_INDEX"] = 18] = "SEND_BLOCK_BY_INDEX";
+    MessageType[MessageType["GET_BLOCK_BY_INDEX"] = 19] = "GET_BLOCK_BY_INDEX";
+    MessageType[MessageType["QUERY_LAST_BLOCK_HEADER"] = 20] = "QUERY_LAST_BLOCK_HEADER";
+    MessageType[MessageType["RESPONSE_LAST_BLOCK_HEADER"] = 21] = "RESPONSE_LAST_BLOCK_HEADER";
+    MessageType[MessageType["QUERY_SYNC_BLOCKCHAIN"] = 22] = "QUERY_SYNC_BLOCKCHAIN";
+    MessageType[MessageType["RESPONSE_SYNC_BLOCKCHAIN"] = 23] = "RESPONSE_SYNC_BLOCKCHAIN";
+    MessageType[MessageType["READY_TO_MINE"] = 24] = "READY_TO_MINE";
+})(MessageType || (MessageType = {}));
+exports.default = MessageType;
+//# sourceMappingURL=type.js.map
